@@ -19,7 +19,7 @@ cin>>id;
 
 int gear = (id / 10000000)-12;
 
-cout<<"Fahsai: I think you may be GEAR "<< gear<<" I have a free movie ticket for you."<<endl;
+cout<<"Fahsai: I think you may be GEAR "<< gear<<". I have a free movie ticket for you."<<endl;
 
 cout<<"Fahsai: Let's go to the cinema together!!!"<<endl;
 
@@ -32,7 +32,9 @@ getline(cin, movie);
 cout<<"Fahsai: So....which day are you free to go with me?"<<endl;
 
 cout<<name<<": ";
+
 getline(cin, day);
+
 
 cout<<"Fahsai: "<< day <<"....that is OK!!! I'm looking forward to watching "<< movie << " with you."<<endl;
 
@@ -40,5 +42,8 @@ cout<<name<<": May the Force be with you krub"<<endl;
 
 string x = "(^ ^)/";
 string y = "\\";
-cout<<"Fahsai: 555+ see  you "<<day<<". Bye Bye "<<y<<x;
+cout<<"Fahsai: 555+ see  you "<<day<<". Bye Bye "<<y<<x<<endl;
+
+
+
 }
